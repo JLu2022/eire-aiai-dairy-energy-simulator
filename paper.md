@@ -116,6 +116,11 @@ Documentation: https://github.com/JLu2022/eire-aiai-dairy-energy-simulator/blob/
 
 Generative AI tools were used during the development of this software and manuscript, including ChatGPT 5.1. These tools were used to assist with drafting portions of source code, refining user-interface elements, and improving the wording of documentation and manuscript text. All AI-generated outputs were reviewed, tested, and revised by the human authors before inclusion in the repository or paper. The authors take full responsibility for the correctness, originality, licensing compliance, and scholarly claims of the software and manuscript. Core decisions regarding problem formulation, software scope, system architecture, modeling assumptions, and interpretation of outputs were made by the authors.
 
+# Author contributions
+
+Hossein Khaleghy and Iias Faiud contributed equally to this work. The software package builds on prior research workflows developed in their respective studies on dairy-farm electricity consumption modeling and solar PV adoption modeling. Junlin Lu led the integration of these workflows into the present interactive software package and prepared the software paper. Karl Mason supervised the work and contributed to project direction and manuscript revision.
+
+
 # Acknowledgements
 <!-- Add funding sources, collaborators, or institutional support here. -->
 This work has been supported by research conducted with the
