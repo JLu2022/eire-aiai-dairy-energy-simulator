@@ -110,7 +110,7 @@ Repository: https://github.com/JLu2022/eire-aiai-dairy-energy-simulator
 
 License: MIT
 
-Documentation: https://github.com/JLu2022/eire-aiai-dairy-energy-simulator/blob/master/README.md
+Documentation: https://github.com/JLu2022/eire-aiai-dairy-energy-simulator#readme
 
 # AI usage disclosure
 
