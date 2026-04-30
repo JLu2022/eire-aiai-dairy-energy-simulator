@@ -2,7 +2,7 @@ import streamlit as st
 from src.utils.ollama_client import query_ollama
 
 st.set_page_config(page_title="Agri Energy Toolkit", layout="wide")
-st.title("Agri Energy Toolkit (Demo)")
+st.title("Agri Energy Toolkit")
 st.markdown("""
 Select a page on the left:
 - **Farm Energy Estimator**: Farm load estimation  
