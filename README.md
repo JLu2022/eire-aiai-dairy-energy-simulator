@@ -163,6 +163,16 @@ Notes:
 
 This repository does not redistribute datasets whose licensing status is uncertain. Where external data are required, users should upload their own CSV files in the expected format. The repository includes only representative example inputs where appropriate.
 
+## Running tests
+
+The repository includes smoke tests for the main simulation and financial-analysis modules.
+
+To install the dependencies and run the tests:
+
+```bash
+python -m pip install -r requirements.txt
+python -m pytest -q
+
 ## Project structure
 
 ```text
@@ -185,7 +195,12 @@ eire-aiai-dairy-energy-simulator/
 │       └── ollama_client.py
 ├── docs/
 │   └── images/
-├── tests/
+│   │   ├──farm-energy-estimator.png
+│   │   ├──pv-adoption.png
+│   │   ├──pv-roi.png
+├── tests/test_smoke.py
 ├── requirements.txt
+├── LICENSE
 └── README.md
+
 ```
