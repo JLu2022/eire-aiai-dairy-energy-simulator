@@ -101,7 +101,7 @@ Default example outputs:
 - Peak power: 7.59 kW
 - Peak hour: 8:00
 
-![Farm Energy Estimator](docs/images/farm_energy_estimator.png)
+![Farm Energy Estimator](docs/images/farm-energy-estimator.png)
 
 ### PV Adoption Model
 Default example inputs:
@@ -116,7 +116,7 @@ Default example outputs:
 - Final adoption rate: 2.3%
 - Cumulative adoptions: 416
 
-![PV Adoption Model](docs/images/pv_adoption.png)
+![PV Adoption Model](docs/images/pv-adoption.png)
 
 ### PV ROI Calculator
 Default example inputs:
@@ -134,7 +134,7 @@ Default example outputs:
 - PV cost: €50,000
 - Subsidy: €0
 
-![PV ROI Calculator](docs/images/pv_roi.png)
+![PV ROI Calculator](docs/images/pv-roi.png)
 
 ## Optional local LLM assistant (Ollama)
 
