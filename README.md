@@ -172,6 +172,22 @@ To install the dependencies and run the tests:
 ```bash
 python -m pip install -r requirements.txt
 python -m pytest -q
+```
+
+On Windows, the Python launcher can also be used:
+
+```bash
+py -m pip install -r requirements.txt
+py -m pytest -q
+```
+
+The current smoke test suite should report:
+
+```text
+3 passed
+```
+python -m pip install -r requirements.txt
+python -m pytest -q
 
 ## Project structure
 
