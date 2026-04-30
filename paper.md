@@ -49,7 +49,7 @@ More specifically, recent agent-based modeling research has proposed dedicated w
 
 Despite this progress, a gap remains between research-grade modeling workflows and software that can be readily used by non-specialist stakeholders. Existing approaches are often distributed across notebooks, scripts, or single-purpose analytical tools, making it difficult to combine energy estimation, PV investment appraisal, and adoption-oriented scenario analysis within one coherent workflow. In addition, many such tools are not designed around interactive exploration by users who may not be familiar with programming environments.
 
-EIRE AIAI Dairy Energy Simulator addresses this gap by integrating multiple complementary tasks—farm-energy estimation, PV financial analysis, and PV adoption scenario modeling—within a single interactive Python-based software system. Rather than replacing detailed research workflows, the software provides a unified, reusable, and dairy-farm-specific interface through which non-specialist users can move from baseline energy estimation to investment and adoption analysis within one coherent graphical environment.
+EIRE AIAI Dairy Energy Simulator addresses this gap by integrating multiple complementary tasks, i.e. farm-energy estimation, PV financial analysis, and PV adoption scenario modeling, i.e. within a single interactive Python-based software system. Rather than replacing detailed research workflows, the software provides a unified, reusable, and dairy-farm-specific interface through which non-specialist users can move from baseline energy estimation to investment and adoption analysis within one coherent graphical environment.
 
 # Software design
 
@@ -61,7 +61,7 @@ The design was informed by pre-existing notebook-based research code developed a
 
 ## Energy and simulation models
 
-The farm-energy estimation component represents electricity demand at the farm level using a modular equipment-oriented structure. The model combines user-configurable farm descriptors—such as herd size, number of milking units, date, milking schedule, milk cooling configuration, and water-heating choice—with component-level demand calculations to estimate daily electricity consumption, hourly load shape, and equipment-level contributions. Seasonal effects are represented through month-dependent inputs and interpolated daily behavior, allowing the tool to express changing demand patterns across the production year.
+The farm-energy estimation component represents electricity demand at the farm level using a modular equipment-oriented structure. The model combines user-configurable farm descriptors—such as herd size, number of milking units, date, milking schedule, milk cooling configuration, and water-heating choice, with component-level demand calculations to estimate daily electricity consumption, hourly load shape, and equipment-level contributions. Seasonal effects are represented through month-dependent inputs and interpolated daily behavior, allowing the tool to express changing demand patterns across the production year.
 
 This component is designed to support practical scenario exploration rather than high-complexity physical simulation. The modeling strategy prioritizes interpretable inputs and outputs that are meaningful to farm-level decision support, while preserving a structure that remains close to the underlying research logic from which the implementation was derived.
 
