@@ -50,7 +50,7 @@ EIRE AIAI Dairy Energy Simulator addresses this need by combining farm-energy es
 
 The software is implemented as a modular Python application with a separation between modeling logic and user-interface components. A Streamlit-based graphical user interface (GUI) provides page-level access to the main workflows, while backend modules encapsulate simulation, photovoltaic, and financial calculations. This separation supports both interactive use and future reuse of the underlying computational components outside the GUI.
 
-The design was informed by pre-existing notebook-based research code developed across multiple work packages [@khaleghy2023modelling; @faiud2024agent]. In contrast to those exploratory implementations, the software reorganizes the relevant logic into callable modules with consistent parameter handling and a unified workflow. This architectural choice improves usability, reduces duplication across scenarios, and makes the system easier to document and extend.
+The design was informed by pre-existing notebook-based research code developed across multiple work packages [@khaleghy2023modelling; @faiud2024agent]. In contrast to those exploratory implementations, the software reorganizes the relevant logic into callable modules with consistent parameter handling and a unified workflow. 
 
 ## Energy and simulation models
 
@@ -91,9 +91,7 @@ For researchers, the package provides a starting point for extending individual 
 
 # Availability
 
-The software is implemented in Python and distributed as an open-source repository. The repository contains the application source code, the interactive interface, and example workflow documentation required for the documented analyses. The package is intended to be run locally as a Streamlit application, allowing users to interactively estimate farm energy demand, explore photovoltaic adoption scenarios, and evaluate photovoltaic investment outcomes.
-
-The current implementation builds on group-developed notebook-based research code and reorganizes selected model logic into a unified software structure suitable for interactive use. Documentation in the repository describes installation requirements, application launch steps, and the main analytical workflows. The repository includes an explicit open-source license, dependency specification, installation instructions, and example workflow documentation.
+The software is implemented in Python and distributed as an open-source repository. It is intended to be run locally as a Streamlit application. The repository contains the application source code, backend model modules, interface pages, installation instructions, test instructions, and example workflow documentation.
 
 Repository: https://github.com/JLu2022/eire-aiai-dairy-energy-simulator 
 
