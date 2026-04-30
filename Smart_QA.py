@@ -6,7 +6,7 @@ st.title("EIRE AIAI Dairy Energy Simulator")
 st.markdown("""
 Select a page on the left:
 - **Farm Energy Estimator**: Farm load estimation  
-- **PV Adoption**: Predict solar adoption 
+- **PV Adoption**: Explore PV adoption scenarios
 - **PV ROI**: ROI calculation
 """)
 
