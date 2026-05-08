@@ -50,6 +50,9 @@ EIRE AIAI Dairy Energy Simulator addresses this need by combining farm-energy es
 
 The software is implemented as a modular Python application with a separation between modeling logic and user-interface components. A Streamlit-based graphical user interface (GUI) provides page-level access to the main workflows, while backend modules encapsulate simulation, photovoltaic, and financial calculations. This separation supports both interactive use and future reuse of the underlying computational components outside the GUI.
 
+![Overview of the EIRE AIAI Dairy Energy Simulator codebase, showing the Streamlit entry point, workflow-specific pages, backend modules, and smoke-test layer.](docs/images/figure1_architecture.png){ width=90% }
+
+
 The design was informed by pre-existing notebook-based research code developed across multiple work packages [@khaleghy2026agent; @faiud2024agent]. In contrast to those exploratory implementations, the software reorganizes the relevant logic into callable modules with consistent parameter handling and a unified workflow. 
 
 ## Energy and simulation models
@@ -66,9 +69,11 @@ In the integrated software package, these capabilities are exposed through param
 
 ## Interactive GUI
 
-A central design goal of the software is accessibility for users who are not expected to work directly with notebooks or source code. The graphical interface is therefore organized as a multi-page application in which each page corresponds to a distinct analytical workflow: farm-energy estimation, PV adoption analysis, PV ROI analysis, and optional LLM-assisted question answering. This page-based structure helps users move from baseline energy estimation to investment and adoption analysis within a single consistent environment.
+A central design goal of the software is accessibility for users who are not expected to work directly with notebooks or source code. The graphical interface is therefore organized as a multi-page application in which each page corresponds to a distinct analytical workflow: farm-energy estimation, PV adoption analysis, PV ROI analysis, and optional LLM-assisted question answering.
 
-The interface combines input forms, calculated indicators, plots, and scenario tables. This allows users to estimate a farm load profile, inspect equipment-level demand, evaluate PV financial assumptions, and run adoption scenarios within the same application.
+![Example view of the EIRE AIAI Dairy Energy Simulator graphical user interface, showing scenario inputs, calculated indicators, plots, and tabular outputs.](docs/images/figure2_gui.png){ width=90% }
+
+The interface combines input forms, calculated indicators, plots, and scenario tables.
 
 # Example usage
 
