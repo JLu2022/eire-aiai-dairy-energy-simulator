@@ -50,7 +50,7 @@ EIRE AIAI Dairy Energy Simulator addresses this need by combining farm-energy es
 
 The software is implemented as a modular Python application with a separation between modeling logic and user-interface components. A Streamlit-based graphical user interface (GUI) provides page-level access to the main workflows, while backend modules encapsulate simulation, photovoltaic, and financial calculations. This separation supports both interactive use and future reuse of the underlying computational components outside the GUI.
 
-The design was informed by pre-existing notebook-based research code developed across multiple work packages [@khaleghy2023modelling; @faiud2024agent]. In contrast to those exploratory implementations, the software reorganizes the relevant logic into callable modules with consistent parameter handling and a unified workflow. 
+The design was informed by pre-existing notebook-based research code developed across multiple work packages [@khaleghy2026agent; @faiud2024agent]. In contrast to those exploratory implementations, the software reorganizes the relevant logic into callable modules with consistent parameter handling and a unified workflow. 
 
 ## Energy and simulation models
 
