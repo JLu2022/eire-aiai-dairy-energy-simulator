@@ -29,7 +29,7 @@ bibliography: paper.bib
 
 Dairy farms increasingly need to understand their electricity demand and assess whether on-farm photovoltaic (PV) generation is financially worthwhile. These questions are difficult to answer with a single static calculation because farm electricity use depends on herd size, milking practice, cooling configuration, water-heating choices, seasonality, and changing electricity prices [@buckley2024farm; @breen2020photovoltaic].
 
-EIRE AIAI Dairy Energy Simulator is a Python and Streamlit application for exploring dairy-farm electricity demand, PV return-on-investment (ROI), and PV adoption scenarios. The software brings together several research workflows in a multi-page graphical interface so that users can run common analyses without editing notebooks or source code. It is intended for researchers, agricultural-energy advisors, and other users who need to compare assumptions about farm energy use, PV costs, subsidies, and adoption behaviour.
+EIRE AIAI Dairy Energy Simulator is a Python and Streamlit application for exploring dairy-farm electricity demand, PV return-on-investment (ROI), and PV adoption scenarios. The software brings together several research workflows in a multi-page graphical interface so that users can run common analyses without editing notebooks or source code. It is intended for researchers, agricultural-energy advisors, and users who need to compare assumptions about farm energy use, PV costs, subsidies, and adoption behaviour.
 
 The package includes backend modules for farm-energy estimation, PV financial calculations, and adoption scenario simulation. It also includes an optional local LLM-assisted interface for energy-related question answering and interpretation support.
 
